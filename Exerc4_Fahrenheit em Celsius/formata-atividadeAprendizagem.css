@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap');
+
+body {
+font-family: "Major Mono Display";
+margin: 0;
+}
+
+h1 {
+    text-align: center;
+    border-bottom: 2px dotted yellowgreen;
+    box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.4);
+    margin: 0;
+    margin-bottom: 40px;
+}
+
+fieldset {
+width: 60%;
+margin: 20px auto;
+background-color: yellowgreen;
+}
+
+
+button {
+    font-family: "Major Mono Display";
+    width: 350px;
+    font-size:18px;
+    font-weight: bold;
+    height: 35px;
+    margin: auto;
+    display: block;
+    margin-top: 10px;
+}
+
+input[type="number"]{
+    width: 160px;
+    display: inline-block; 
+}
+
+p {
+    border: 1px solid #999;
+    width: 50%;
+    text-align: center;
+    background: yellowgreen;
+    margin: 20px auto;
+    padding: 15px; 
+}
+
+span {
+    color: white;
+    font-weight:bold;
+    font-style:italic;
+}

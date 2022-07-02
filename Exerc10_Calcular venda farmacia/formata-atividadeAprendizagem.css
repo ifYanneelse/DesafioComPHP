@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body {
+font-family: "Roboto";
+margin: 0;
+}
+
+h1 {
+    text-align: center;
+    border-bottom: 2px dotted #3c3c3f;
+    box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.4);
+    margin: 0;
+    margin-bottom: 40px;
+}
+
+h3 {
+    font-size:38px;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 40px;
+}
+
+fieldset {
+font-size:18px;
+width: 40%;
+margin: 10px auto;
+background-color: rgba(200, 200, 200, 0.5);
+}
+
+button {
+    font-family: "Advent Pro";
+    width: 230px;
+    font-size:18px;
+    font-weight: bold;
+    height: 35px;
+    margin: auto;
+    display: block;
+    margin-top: 10px;
+}
+
+input[type="number"]{
+    width: 120px;
+    display: inline-block;
+}
+  
+p {
+    font-size:20px;
+    border: 1px solid #999;
+    width: 30%;
+    text-align: center;
+    background: rgba(200, 200, 200, 0.5);
+    margin: 20px auto;
+    padding: 15px; 
+}
+
+span {
+    color: #061539;
+    font-weight:bold;
+    font-style:italic;
+}

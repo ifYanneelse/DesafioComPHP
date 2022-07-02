@@ -1,0 +1,31 @@
+<!DOCTYPE html> 
+<html lang="pt-BR"> 
+<head> 
+  <meta charset="utf-8"> 
+  <title> Programação web com PHP - Curso CTDS - Segunda fase </title> 
+  <link rel="stylesheet" href="formata-atividadeAprendizagem.css">
+</head> 
+
+<body> 
+    <h1> Programação web - Exercício 10</h1>
+    <h3> Rede de Farmácias XXX </h3>
+
+    <form method="post" action="exerc10.php">
+<fieldset>
+<legend> Gerenciamento de vendas de medicamentos </legend><br><br>
+
+<label> Forneça o valor da compra efetuada pelo cliente: </label>
+<input type="number" name="valor-compra" min="0" step="0.01" autofocus> <br><br>
+
+<input type="radio" name="desconto-cliente" value="0"> Cliente acima de 70 anos. <br>
+<input type="radio" name="desconto-cliente" value="1"> Cliente entre 55 e 70 anos.<br>
+<input type="radio" name="desconto-cliente" value="2"> Cliente com menos de 55 anos.<br><br>
+
+<input type="checkbox" name="cartao-fidelidade" value="Sim"> Efetuou o pagamento com cartão de fidelidade da rede. <br>
+<br>
+
+<button type="submit"> Calcular dados da venda </button> <br>
+</fieldset>
+    </form>
+</body> 
+</html> 
